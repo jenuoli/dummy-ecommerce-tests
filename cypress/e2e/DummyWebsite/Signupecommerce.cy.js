@@ -7,7 +7,7 @@ describe('Ecommerce Dummy Website', function(){
         cy.get('.shop-menu > .nav > :nth-child(4) > a').click();
         cy.wait(1000);
         cy.get('[data-qa="signup-name"]').click().type('Jenu');
-        cy.wait(2000);
+
         cy.get('[data-qa="signup-email"]').click().type('hamp@mailinator.com');
 
         //After signup entering data
